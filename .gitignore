@@ -20,3 +20,8 @@ playwright-log.txt
 
 # Environment variables
 .env
+
+# Robot Framework generated files
+report.html
+log.html
+output.xml
