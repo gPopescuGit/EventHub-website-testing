@@ -27,7 +27,6 @@ jobs:
         env:
           TEST_USER_EMAIL: ${{ secrets.EVENTHUB_EMAIL }}
           TEST_USER_PASSWORD: ${{ secrets.EVENTHUB_PASS }}
-          PLAYWRIGHT_HEADLESS: "1"
         run: |
           robot --outputdir results tests/
 
