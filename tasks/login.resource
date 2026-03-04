@@ -13,3 +13,12 @@ Perform Login
 
 Perform Logout
     Click Logout Button
+
+Error Message Displayed Invalid Login
+    Error Invalid Login Displayed
+
+Error Message Displayed Invalid Email
+    Error Invalid Email Displayed
+
+Error Message Displayed Short Password
+    Error Short Password Displayed
