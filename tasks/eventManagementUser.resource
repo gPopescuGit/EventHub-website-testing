@@ -1,0 +1,1 @@
+#manage events as user, including booking, view events, etc.

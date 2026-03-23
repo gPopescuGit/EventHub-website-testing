@@ -1,10 +1,9 @@
 *** Settings ***
-Resource    ../tasks/open_homepage.resource
-Resource    ../tasks/login.resource
+Resource    ../tasks/authentication.resource
 
 *** Keywords ***
-User is on the homepage
-    Perform Open Homepage
+User is on the LoginPage
+    Open LoginPage
 
 User Logs In
     [Arguments]    ${username}    ${password}
@@ -12,11 +11,11 @@ User Logs In
 
 User Logs Out
     Perform Logout
-
-Discover page is visible
+#TODO: use locators from home resource files
+HomePage is visible
     Wait for Elements State     //h1[contains(., "Discover")]       visible
-
-Homepage is visible
+#TODO: use locators from login resource files
+LoginPage is visible
     Wait for Elements State     //h1[contains(., "Sign in")]       visible
 
 Invalid Login Message Is Displayed
@@ -25,5 +24,5 @@ Invalid Login Message Is Displayed
 Invalid Email Message Is Displayed
     Error Message Displayed Invalid Email
 
-Short Password Message Is Displayed
+Invalid Password Message Is Displayed
     Error Message Displayed Short Password

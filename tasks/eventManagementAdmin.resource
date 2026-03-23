@@ -1,0 +1,1 @@
+#manage events as admin, including creation/deletion of events

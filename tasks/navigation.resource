@@ -1,0 +1,1 @@
+#manages interactions with buttons like Home, Events, Admin, etc.

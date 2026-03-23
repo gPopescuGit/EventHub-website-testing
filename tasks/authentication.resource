@@ -4,6 +4,9 @@ Resource    ../resources/locators_login.resource
 Resource    ../interactions/browser.resource
 
 *** Keywords ***
+Open LoginPage
+    New Page    ${BASE_URL}
+
 Perform Login
     [Arguments]     ${username}     ${password}
     New Page        ${LOGIN_URL}
@@ -22,3 +25,4 @@ Error Message Displayed Invalid Email
 
 Error Message Displayed Short Password
     Error Short Password Displayed
+

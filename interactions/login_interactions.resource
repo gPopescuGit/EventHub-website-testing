@@ -14,9 +14,6 @@ Fill Password
 Click Login Button
     Click           ${LOGIN_BUTTON}
 
-Click Logout Button
-    Click           ${LOGOUT_BUTTON}
-
 Error Invalid Login Displayed
     Wait For Elements State    ${INVALID_LOGIN}    visible    5s
 

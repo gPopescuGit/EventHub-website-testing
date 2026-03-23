@@ -1,2 +1,4 @@
-robotframework
-robotframework-browser
+REQ_ID| LINKED_SCENARIO_ID | TYPE | REQUIREMENT_TEXT | PRIORITY | OWNER
+REQ001 | SCN001 | F | As a user, I can log in with my registered username and password. | HIGH | ME
+
+
