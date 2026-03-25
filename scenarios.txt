@@ -1,4 +1,0 @@
-SCEN_ID | LINKED_TC | MAPPED_TEST_CASES | SCENARIO_TITLE | SCENARIO_DESCRIPTION | EXPECTED_OUTCOME
-SCN001 | REQ001 | TC001_Valid_Login | Successful login with valid credentials | Registered user succeeds login using provided valid email and password | Home page is visible
-SCN002 | REQ001 | TC002_Invalid_Login | Failed login attempt with invalid credentials | User attempts to login with invalid email and password and authentication is failed | Error message is displayed and user remains on the login page
-SCN003 | REQ001 | TC003_Email_Validation, TC004_Password_Validation | Login form validation messages are displayed correctly | User submits login form with invalid input format and client-side validation is triggered | Validation messages are displayed and login is prevented

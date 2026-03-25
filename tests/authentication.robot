@@ -37,3 +37,22 @@ Password Validation Message Is Displayed
     When User Logs In    ${EMAIL}    ${SHORT_PASS}
     Then Error Message Displayed Short Password
     And LoginPage is visible
+
+#
+Session Persists After Login
+    [Tags]  TC005_Session_Persistence    SCN004    positive
+    Given User is on the LoginPage
+    When User Logs In    ${EMAIL}    ${PASS}
+    Then HomePage is visible
+    When User Refreshes The Page
+    Then HomePage is visible
+    User Is Still Authenticated After 1 Minute
+
+
+Logout Ends Session
+    [Tags]  TC006_Logout_Ends_Session    SCN005    positive
+    Given User is on the LoginPage
+    When User Logs In    ${EMAIL}    ${PASS}
+    Then HomePage is visible
+    When User Logs Out
+    Then LoginPage is visible

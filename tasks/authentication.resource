@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../interactions/login_interactions.resource
+Resource    ../interactions/home_interactions.resource
 Resource    ../resources/locators_login.resource
 Resource    ../interactions/browser.resource
 

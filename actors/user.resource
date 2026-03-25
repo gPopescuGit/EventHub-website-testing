@@ -1,5 +1,6 @@
 *** Settings ***
 Resource    ../tasks/authentication.resource
+Resource    ../tasks/generic.resource
 
 *** Keywords ***
 User is on the LoginPage
@@ -26,3 +27,10 @@ Invalid Email Message Is Displayed
 
 Invalid Password Message Is Displayed
     Error Message Displayed Short Password
+
+User Refreshes The Page
+    Refresh Page
+
+User Is Still Authenticated After 1 Minute
+    One Minute Passed
+    Logout Visible

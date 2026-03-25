@@ -1,0 +1,31 @@
+REQ_ID,SCENARIO_IDS,TYPE,REQUIREMENT_TEXT,PRIORITY,OWNER
+REQ001,"SCN001|SCN002|SCN003",Functional,"As a user, I can log in with my registered username and password.",HIGH,ME
+REQ002,"SCN001",Functional,"As a user, I should be redirected to the event list page after successful login.",HIGH,ME
+REQ003,"SCN004|SCN005", NonFunctional, "As an authenticated user, I should remain logged in after authentication until I explicitly log out.",LOW,ME
+REQ004,-,NonFunctional,"Password input shall be masked (displayed as ‘*’ or dots) when typing in the login field.",MEDIUM,ME
+REQ005,-,Functional,"As an authenticated user, I want to navigate between Home, Events, My Bookings, and Admin pages via the header menu.",MEDIUM,ME
+REQ006,-,NonFunctional,"The currently active page shall be visually highlighted in the navigation bar.",LOW,ME
+REQ007,-,Functional,"As an authenticated user, I can log out of the application using the Logout button.",MEDIUM,ME
+REQ008,-,Functional,"As an authenticated user, I should see a landing section describing the platform purpose.",LOW,ME
+REQ009,-,Functional,"As an authenticated user, I should see a list of featured events on the homepage containing details including name, date, location and price.",MEDIUM,ME
+REQ010,-,Functional,"As an authenticated user, I can access “Browse Events” from the homepage CTA.",MEDIUM,ME
+REQ011,-,Functional,"As an authenticated user, I can access “My Bookings” directly from the homepage CTA.",MEDIUM,ME
+REQ012,-,Functional,"As an authenticated admin, I can access ""Manage Events"" via dropdown opened from ""Admin"" button.",MEDIUM,ME
+REQ013,-,Functional,"As an authenticated admin, I can access ""Manage Bookings"" via dropdown opened from ""Admin"" button.",MEDIUM,ME
+REQ014,-,Functional,"As an authenticated user, I should see a list of upcoming events containing details (title, date, venue, price, available seats).",MEDIUM,ME
+REQ015,-,Functional,"As an authenticated user, I should be able to search events by keyword (event name or venue).",MEDIUM,ME
+REQ016,-,Functional,"As an authenticated user, I should be able to filter events by category.",MEDIUM,ME
+REQ017,-,Functional,"As an authenticated user, I should be able to filter events by city.",MEDIUM,ME
+REQ018,-,NonFunctional,"Filtered results shall be displayed dynamically without requiring full page reload.",MEDIUM,ME
+REQ019,-,Functional,"As an authenticated user, I can start booking an event via “Book Now”.",MEDIUM,ME
+REQ020,-,Functional,"As an authenticated user, I am required to fill in my information to process the booking.",MEDIUM,ME
+REQ021,-,Functional,"As an authenticated user, I want to receive confirmation after booking an event.",MEDIUM,ME
+REQ022,-,Functional,"As an authenticated user, I want to see updated seat availability after booking.",MEDIUM,ME
+REQ023,-,Functional,"As an authenticated user, I should see all my booked events.",MEDIUM,ME
+REQ024,-,Functional,"As an authenticated user, I should see an empty state when no bookings exist.",LOW,ME
+REQ025,-,Functional,"As an authenticated admin, I want to add a new event via “Add New Event”.",MEDIUM,ME
+REQ026,-,Functional,"As an authenticated admin, I am required to provide event details when creating an event.",MEDIUM,ME
+REQ027,-,Functional,"As an authenticated admin, I should see newly created event in the list.",MEDIUM,ME
+REQ028,-,NonFunctional,"The system should respond to user requests within 2 seconds.",HIGH,ME
+REQ029,-,NonFunctional,"The system should function across major browsers (Chrome, Firefox, Edge).",HIGH,ME
+REQ030,-,NonFunctional,"The UI should be responsive on different screen sizes.",HIGH,ME
