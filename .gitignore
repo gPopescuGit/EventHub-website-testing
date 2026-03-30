@@ -25,3 +25,6 @@ playwright-log.txt
 output.xml
 report.html
 log.html
+
+#local test credentials
+resources/config/test_credentials_local.json
